@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="PageObjectModelcodingpractice21TestSuite" parallel="classes" thread-count="2">
+    <test name="LoginPageandHomepage" >
+        <classes>
+            <class name="CommentAppHomeTestpage2.HomapageTest"></class>
+            <class name="EBankAppTestHomapageTest.HomePageTest1"></class>
+            <class name="EBankAppTestHomapageTest.HomapgeTest2"></class>
+            <class name="JobbyAppTestPage2.HeadersectionTest"></class>
+            <class name="JobbyAppTestPage2.HomePageTest"></class>
+            <class name="JobbyAppTestPage2.JobspageTest"></class>
+            <class name="JobbyAppTestPage2.LoginPageTest2"></class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,275 @@
+<html>
+<head>
+<title>TestNG:  LoginPageandHomepage</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>LoginPageandHomepage</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>39/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Oct 09 18:45:51 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>100 seconds (100449 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='EBankAppTestHomapageTest.HomePageTest1.LoginPageUI()'><b>LoginPageUI</b><br>Test class: EBankAppTestHomapageTest.HomePageTest1</td>
+<td></td>
+<td>0</td>
+<td>EBankAppTestHomapageTest.HomePageTest1@5e316c74</td></tr>
+<tr>
+<td title='CommentAppHomeTestpage2.HomapageTest.commentcounter()'><b>commentcounter</b><br>Test class: CommentAppHomeTestpage2.HomapageTest</td>
+<td></td>
+<td>1</td>
+<td>CommentAppHomeTestpage2.HomapageTest@2f177a4b</td></tr>
+<tr>
+<td title='CommentAppHomeTestpage2.HomapageTest.Deletefuncationallity()'><b>Deletefuncationallity</b><br>Test class: CommentAppHomeTestpage2.HomapageTest</td>
+<td></td>
+<td>2</td>
+<td>CommentAppHomeTestpage2.HomapageTest@2f177a4b</td></tr>
+<tr>
+<td title='EBankAppTestHomapageTest.HomePageTest1.Succesfullylogin()'><b>Succesfullylogin</b><br>Test class: EBankAppTestHomapageTest.HomePageTest1</td>
+<td></td>
+<td>1</td>
+<td>EBankAppTestHomapageTest.HomePageTest1@5e316c74</td></tr>
+<tr>
+<td title='JobbyAppTestPage2.HeadersectionTest.AppLogodisplayed()'><b>AppLogodisplayed</b><br>Test class: JobbyAppTestPage2.HeadersectionTest</td>
+<td></td>
+<td>1</td>
+<td>JobbyAppTestPage2.HeadersectionTest@75329a49</td></tr>
+<tr>
+<td title='CommentAppHomeTestpage2.HomapageTest.Commentsinitial()'><b>Commentsinitial</b><br>Test class: CommentAppHomeTestpage2.HomapageTest<br>Parameters: John, Innovative and interconnected systems.</td>
+<td></td>
+<td>0</td>
+<td>CommentAppHomeTestpage2.HomapageTest@2f177a4b</td></tr>
+<tr>
+<td title='JobbyAppTestPage2.LoginPageTest2.SUCCESFULLY()'><b>SUCCESFULLY</b><br>Test class: JobbyAppTestPage2.LoginPageTest2</td>
+<td></td>
+<td>1</td>
+<td>JobbyAppTestPage2.LoginPageTest2@7f010382</td></tr>
+<tr>
+<td title='JobbyAppTestPage2.JobspageTest.SucessfullSearch()'><b>SucessfullSearch</b><br>Test class: JobbyAppTestPage2.JobspageTest<br>Parameters: Devops Engineer, 9</td>
+<td></td>
+<td>2</td>
+<td>JobbyAppTestPage2.JobspageTest@4313f5bc</td></tr>
+<tr>
+<td title='JobbyAppTestPage2.LoginPageTest2.PasswordEmptyfiel()'><b>PasswordEmptyfiel</b><br>Test class: JobbyAppTestPage2.LoginPageTest2</td>
+<td></td>
+<td>0</td>
+<td>JobbyAppTestPage2.LoginPageTest2@7f010382</td></tr>
+<tr>
+<td title='EBankAppTestHomapageTest.HomapgeTest2.LogoutFuncationality()'><b>LogoutFuncationality</b><br>Test class: EBankAppTestHomapageTest.HomapgeTest2</td>
+<td></td>
+<td>1</td>
+<td>EBankAppTestHomapageTest.HomapgeTest2@6d2a209c</td></tr>
+<tr>
+<td title='EBankAppTestHomapageTest.HomapgeTest2.HomepageUi()'><b>HomepageUi</b><br>Test class: EBankAppTestHomapageTest.HomapgeTest2</td>
+<td></td>
+<td>1</td>
+<td>EBankAppTestHomapageTest.HomapgeTest2@6d2a209c</td></tr>
+<tr>
+<td title='JobbyAppTestPage2.JobspageTest.SucessfullSearch()'><b>SucessfullSearch</b><br>Test class: JobbyAppTestPage2.JobspageTest<br>Parameters: Data Scientist, 11</td>
+<td></td>
+<td>2</td>
+<td>JobbyAppTestPage2.JobspageTest@4313f5bc</td></tr>
+<tr>
+<td title='JobbyAppTestPage2.LoginPageTest2.EmptyInputfield()'><b>EmptyInputfield</b><br>Test class: JobbyAppTestPage2.LoginPageTest2</td>
+<td></td>
+<td>0</td>
+<td>JobbyAppTestPage2.LoginPageTest2@7f010382</td></tr>
+<tr>
+<td title='JobbyAppTestPage2.HeadersectionTest.LogoutFuncationality()'><b>LogoutFuncationality</b><br>Test class: JobbyAppTestPage2.HeadersectionTest</td>
+<td></td>
+<td>1</td>
+<td>JobbyAppTestPage2.HeadersectionTest@75329a49</td></tr>
+<tr>
+<td title='JobbyAppTestPage2.HeadersectionTest.ClickingAppLogo()'><b>ClickingAppLogo</b><br>Test class: JobbyAppTestPage2.HeadersectionTest</td>
+<td></td>
+<td>1</td>
+<td>JobbyAppTestPage2.HeadersectionTest@75329a49</td></tr>
+<tr>
+<td title='JobbyAppTestPage2.HomePageTest.JobsbuttonFucationality()'><b>JobsbuttonFucationality</b><br>Test class: JobbyAppTestPage2.HomePageTest</td>
+<td></td>
+<td>1</td>
+<td>JobbyAppTestPage2.HomePageTest@161479c6</td></tr>
+<tr>
+<td title='JobbyAppTestPage2.JobspageTest.UnSuccesfullSearch()'><b>UnSuccesfullSearch</b><br>Test class: JobbyAppTestPage2.JobspageTest</td>
+<td></td>
+<td>1</td>
+<td>JobbyAppTestPage2.JobspageTest@4313f5bc</td></tr>
+<tr>
+<td title='JobbyAppTestPage2.HeadersectionTest.Navbarjoblink()'><b>Navbarjoblink</b><br>Test class: JobbyAppTestPage2.HeadersectionTest</td>
+<td></td>
+<td>1</td>
+<td>JobbyAppTestPage2.HeadersectionTest@75329a49</td></tr>
+<tr>
+<td title='EBankAppTestHomapageTest.HomePageTest1.Emptypinfield()'><b>Emptypinfield</b><br>Test class: EBankAppTestHomapageTest.HomePageTest1</td>
+<td></td>
+<td>1</td>
+<td>EBankAppTestHomapageTest.HomePageTest1@5e316c74</td></tr>
+<tr>
+<td title='EBankAppTestHomapageTest.HomePageTest1.Invalidpin()'><b>Invalidpin</b><br>Test class: EBankAppTestHomapageTest.HomePageTest1</td>
+<td></td>
+<td>1</td>
+<td>EBankAppTestHomapageTest.HomePageTest1@5e316c74</td></tr>
+<tr>
+<td title='CommentAppHomeTestpage2.HomapageTest.Commentsinitial()'><b>Commentsinitial</b><br>Test class: CommentAppHomeTestpage2.HomapageTest<br>Parameters: Alice, Smart factories, improved efficiency.</td>
+<td></td>
+<td>0</td>
+<td>CommentAppHomeTestpage2.HomapageTest@2f177a4b</td></tr>
+<tr>
+<td title='CommentAppHomeTestpage2.HomapageTest.Commentsinitial()'><b>Commentsinitial</b><br>Test class: CommentAppHomeTestpage2.HomapageTest<br>Parameters: Robert, AI-powered automation, limitless potential.</td>
+<td></td>
+<td>0</td>
+<td>CommentAppHomeTestpage2.HomapageTest@2f177a4b</td></tr>
+<tr>
+<td title='CommentAppHomeTestpage2.HomapageTest.Commentsinitial()'><b>Commentsinitial</b><br>Test class: CommentAppHomeTestpage2.HomapageTest<br>Parameters: Bob, IoT revolutionizing daily life.</td>
+<td></td>
+<td>0</td>
+<td>CommentAppHomeTestpage2.HomapageTest@2f177a4b</td></tr>
+<tr>
+<td title='JobbyAppTestPage2.JobspageTest.SucessfullSearch()'><b>SucessfullSearch</b><br>Test class: JobbyAppTestPage2.JobspageTest<br>Parameters: Frontend Engineer, 13</td>
+<td></td>
+<td>2</td>
+<td>JobbyAppTestPage2.JobspageTest@4313f5bc</td></tr>
+<tr>
+<td title='JobbyAppTestPage2.HeadersectionTest.NavbarlinkHome()'><b>NavbarlinkHome</b><br>Test class: JobbyAppTestPage2.HeadersectionTest</td>
+<td></td>
+<td>1</td>
+<td>JobbyAppTestPage2.HeadersectionTest@75329a49</td></tr>
+<tr>
+<td title='CommentAppHomeTestpage2.HomapageTest.CommentsAppUI()'><b>CommentsAppUI</b><br>Test class: CommentAppHomeTestpage2.HomapageTest</td>
+<td></td>
+<td>0</td>
+<td>CommentAppHomeTestpage2.HomapageTest@2f177a4b</td></tr>
+<tr>
+<td title='JobbyAppTestPage2.LoginPageTest2.Loginpageurl()'><b>Loginpageurl</b><br>Test class: JobbyAppTestPage2.LoginPageTest2</td>
+<td></td>
+<td>0</td>
+<td>JobbyAppTestPage2.LoginPageTest2@7f010382</td></tr>
+<tr>
+<td title='EBankAppTestHomapageTest.HomePageTest1.EmptyInputField()'><b>EmptyInputField</b><br>Test class: EBankAppTestHomapageTest.HomePageTest1</td>
+<td></td>
+<td>0</td>
+<td>EBankAppTestHomapageTest.HomePageTest1@5e316c74</td></tr>
+<tr>
+<td title='JobbyAppTestPage2.HomePageTest.HomeHeading()'><b>HomeHeading</b><br>Test class: JobbyAppTestPage2.HomePageTest</td>
+<td></td>
+<td>1</td>
+<td>JobbyAppTestPage2.HomePageTest@161479c6</td></tr>
+<tr>
+<td title='JobbyAppTestPage2.LoginPageTest2.Invalidcredentail()'><b>Invalidcredentail</b><br>Test class: JobbyAppTestPage2.LoginPageTest2</td>
+<td></td>
+<td>1</td>
+<td>JobbyAppTestPage2.LoginPageTest2@7f010382</td></tr>
+<tr>
+<td title='JobbyAppTestPage2.JobspageTest.ProfilecontainerUi()'><b>ProfilecontainerUi</b><br>Test class: JobbyAppTestPage2.JobspageTest</td>
+<td></td>
+<td>1</td>
+<td>JobbyAppTestPage2.JobspageTest@4313f5bc</td></tr>
+<tr>
+<td title='JobbyAppTestPage2.JobspageTest.SucessfullSearch()'><b>SucessfullSearch</b><br>Test class: JobbyAppTestPage2.JobspageTest<br>Parameters: ML Engineer, 10</td>
+<td></td>
+<td>2</td>
+<td>JobbyAppTestPage2.JobspageTest@4313f5bc</td></tr>
+<tr>
+<td title='JobbyAppTestPage2.LoginPageTest2.EmptyUsernamefiel()'><b>EmptyUsernamefiel</b><br>Test class: JobbyAppTestPage2.LoginPageTest2</td>
+<td></td>
+<td>0</td>
+<td>JobbyAppTestPage2.LoginPageTest2@7f010382</td></tr>
+<tr>
+<td title='EBankAppTestHomapageTest.HomePageTest1.EmptyUserfield()'><b>EmptyUserfield</b><br>Test class: EBankAppTestHomapageTest.HomePageTest1</td>
+<td></td>
+<td>0</td>
+<td>EBankAppTestHomapageTest.HomePageTest1@5e316c74</td></tr>
+<tr>
+<td title='JobbyAppTestPage2.JobspageTest.SucessfullSearch()'><b>SucessfullSearch</b><br>Test class: JobbyAppTestPage2.JobspageTest<br>Parameters: Fullstack Developer, 6</td>
+<td></td>
+<td>2</td>
+<td>JobbyAppTestPage2.JobspageTest@4313f5bc</td></tr>
+<tr>
+<td title='JobbyAppTestPage2.JobspageTest.SucessfullSearch()'><b>SucessfullSearch</b><br>Test class: JobbyAppTestPage2.JobspageTest<br>Parameters: Backend Engineer, 11</td>
+<td></td>
+<td>2</td>
+<td>JobbyAppTestPage2.JobspageTest@4313f5bc</td></tr>
+<tr>
+<td title='CommentAppHomeTestpage2.HomapageTest.Commentsinitial()'><b>Commentsinitial</b><br>Test class: CommentAppHomeTestpage2.HomapageTest<br>Parameters: Harry, Data-driven decision-making, game-changer.</td>
+<td></td>
+<td>0</td>
+<td>CommentAppHomeTestpage2.HomapageTest@2f177a4b</td></tr>
+<tr>
+<td title='CommentAppHomeTestpage2.HomapageTest.Commentorder()'><b>Commentorder</b><br>Test class: CommentAppHomeTestpage2.HomapageTest</td>
+<td></td>
+<td>2</td>
+<td>CommentAppHomeTestpage2.HomapageTest@2f177a4b</td></tr>
+<tr>
+<td title='CommentAppHomeTestpage2.HomapageTest.Likes()'><b>Likes</b><br>Test class: CommentAppHomeTestpage2.HomapageTest</td>
+<td></td>
+<td>2</td>
+<td>CommentAppHomeTestpage2.HomapageTest@2f177a4b</td></tr>
+</table><p>
+</body>
+</html>
